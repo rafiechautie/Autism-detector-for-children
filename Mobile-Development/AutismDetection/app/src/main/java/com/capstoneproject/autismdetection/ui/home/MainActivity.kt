@@ -1,7 +1,8 @@
-package com.capstoneproject.autismdetection
+package com.capstoneproject.autismdetection.ui.home
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.capstoneproject.autismdetection.R
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
