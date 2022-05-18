@@ -1,4 +1,4 @@
-package com.capstoneproject.autismdetection.ui.home
+package com.capstoneproject.autismdetection
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
