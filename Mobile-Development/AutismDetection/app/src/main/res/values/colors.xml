@@ -7,4 +7,11 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <!--  warna yang dibuat sendiri -->
+    <color name="blue">#7FB5FF</color>
+    <color name="blueLight">#C4DDFF</color>
+    <color name="cream">#FEE2C5</color>
+    <color name="blueDark">#001D6E</color>
+
 </resources>
