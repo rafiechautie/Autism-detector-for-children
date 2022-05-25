@@ -2,8 +2,14 @@
     <string name="app_name">AutismDetection</string>
     <string name="title_activity_home_page">HomePageActivity</string>
     <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
+    <string name="title_detection">Detection Austism</string>
+    <string name="title_profile_account">Profile Account</string>
     <string name="copyright">Made for Capstone Project\nBangkit 2022</string>
     <string name="title_project">Austism\nDetector\nApp</string>
+    <string name="hello">Hello,</string>
+    <string name="our_service">Our Service</string>
+    <string name="detection_naustism">Detection\nAustism</string>
+    <string name="nearby_ntherapy">Nearby\nTherapy</string>
+    <string name="consultation">Consultation</string>
+    <string name="coming_nsoon">Coming\nSoon</string>
 </resources>
