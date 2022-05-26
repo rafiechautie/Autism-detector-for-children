@@ -12,4 +12,10 @@
     <string name="nearby_ntherapy">Nearby\nTherapy</string>
     <string name="consultation">Consultation</string>
     <string name="coming_nsoon">Coming\nSoon</string>
+    <string name="change_language">Change Language</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="desc_profile">Place that you can manage your profile</string>
+    <string name="profile_user">Profile User</string>
+    <string name="help">Help</string>
+    <string name="logout">Logout</string>
 </resources>
