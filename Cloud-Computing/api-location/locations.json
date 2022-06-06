@@ -1,5 +1,5 @@
 {
-    "jakarta": [
+    "indonesia": [
         {
             "nama": "Bimatera Pusat terapi anak Jakarta",
             "alamat": "7, Jl. Raya Tengah No.25, RW.3, Kp. Tengah, Kec. Kramat jati, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13520",
@@ -78,9 +78,7 @@
             "lat": "-6.269348559041284",
             "lon": "106.91120328584363"
 
-        }
-    ],
-    "aceh": [
+        },
         {
             "nama": "Autism Services Center",
             "alamat": "Jl. Sultan Malikul Saleh No.41, Lam Lagang, Kec. Banda Raya, Kota Banda Aceh, Aceh 23239",
@@ -110,9 +108,7 @@
             "alamat": " Jl. H. Agussalim, nomor 5, kelurahan, Alue, Brawe, Alue Berawe, Kec. Langsa Kota, Kota Langsa, Aceh 24375",
             "lat": "4.4724502306132745",
             "lon": "97.97940015646523"
-        }
-    ],
-    "sumut": [
+        },
         {
             "nama": "Klinik Fadira, Pusat Terapi Tumbuh Kembang AnAK",
             "alamat": "Jl. Veteran No.45, Tangsi, Kec. Binjai Kota, Kota Binjai, Sumatera Utara 20714",
@@ -143,7 +139,6 @@
             "alamat": "JP45+VPJ, Kenangan Baru, Percut Sei Tuan, Deli Serdang Regency, North Sumatra 20371",
             "lat": "3.607219108081164",
             "lon": "98.709324746389"
-
         },
         {
             "nama": "KIDZ SMILE, Sekolah & Terapi Anak autis, Kesulitan belajar, , Hiperaktif, Terlambat bicara",
@@ -176,9 +171,7 @@
             "alamat": "Jl. Jermal I Gg. Setiabudi No.1, Denai, Kec. Medan Denai, Kota Medan, Sumatera Utara 202022",
             "lat": "3.5803742541151706",
             "lon": "98.72949590488804"
-        }
-    ],
-    "kepri": [
+        },
         {
             "nama": "YAMET Child Development Center Cab. Tanjung Balai Karimun",
             "alamat": "Jl. Tlk. Air Tlk. Air, Kec. Karimun, Kabupaten Karimun, Kepulauan Riau",
@@ -208,9 +201,7 @@
             "alamat": "SLB Putrakami Batam, Komplek Anggrek Mas 1 Blok i No. 15, Jl. Sudirman No.38, Taman Baloi, Kec. Batam Kota, Kota Batam, Kepulauan Riau 29444",
             "lat": "1.1115516730036354",
             "lon": "104.03005597490898"
-        }
-    ],
-    "riau": [
+        },
         {
             "nama": "Special Kids Therapy & Special Education",
             "alamat": "Jl. Taman Sari No.47, Tengkerang Sel., Kec. Bukit Raya, Kota Pekanbaru, Riau 28125",
@@ -240,9 +231,7 @@
             "alamat": "Jl. Gn. Jati No.21, Tengkerang Tim., Kec. Tenayan Raya, Kota Pekanbaru, Riau 28131",
             "lat": "0.49026314804289134",
             "lon": "101.50019788047227"
-        }
-    ],
-    "sumbar": [
+        },
         {
             "nama": "Sekolah Autis Yayasan Mitra Ananda",
             "alamat": "Jl. Jhoni Anwar No.27C, Ulak Karang Utara, Kec. Padang Utara, Kota Padang, Sumatera Barat",
@@ -272,9 +261,7 @@
             "alamat": "395H+M28, Andalas, Padang Timur, Padang City, West Sumatra 25126",
             "lat": "-0.9408383315460307",
             "lon": "100.37761531826962"
-        }
-    ],
-    "jambi": [
+        },
         {
             "nama": "Kiddy Autism Center",
             "alamat": "JL. Kolonel Amir Hamzah, No. 37, Simpang Empat Sipin, Telani Pura, Telanaipura, Kec. Telanaipura, Kota Jambi, Jambi 36361",
@@ -298,9 +285,7 @@
             "alamat": "9HRV+HHR, Lorong Cateia 3, Sungai Putri, Kec. Telanaipura, Kota Jambi, Jambi 36124",
             "lat": "-1.6084755399002406",
             "lon": "103.59388557157891"
-        }
-    ],
-    "sumsel": [
+        },
         {
             "nama": "Klinik Autis Anakku",
             "alamat": "2Q7Q+36J, Komplek Ruko Simpang Tangga Takat, Jl. Jenderal Ahmad Yani, 16 Ulu, Kec. Seberang Ulu II, Kota Palembang, Sumatera Selatan 30265",
@@ -330,9 +315,7 @@
             "alamat": "Jl. Dr. M. Isa No.142, Duku, Kec. Ilir Tim. II, Kota Palembang, Sumatera Selatan 30114",
             "lat": "-2.973903217078245",
             "lon": "104.7705594622142"
-        }
-    ],
-    "bengkulu": [
+        },
         {
             "nama": "Rumah Autis",
             "alamat": "5873+F2J, Jl. Durian 1, Lkr. Barat, Kec. Gading Cemp., Kota Bengkulu, Bengkulu 38211",
@@ -350,9 +333,7 @@
             "alamat": "678V+G6P, Gg. Lanbaw 2, Semarang, Kec. Sungai Serut, Kota Bengkulu, Bengkulu 38119",
             "lat": "-3.7836511830279353",
             "lon": "102.29297110333148"
-        }
-    ],
-    "lampung": [
+        },
         {
             "nama": "PUSAT TERAPI AUTIS",
             "alamat": "Sekolah Tinggi Ilmu Ekonomi Muhammadiyah, Jl. Kedaton No. 17, Way Urang, Kalianda, Tajimalela, Kec. Kalianda, Kabupaten Lampung Selatan, Lampung 35551",
@@ -370,9 +351,7 @@
             "alamat": "Jl. Pelita Ujung No.34, Labuhan Ratu, Kec. Kedaton, Kota Bandar Lampung, Lampung 35132",
             "lat": "-5.3774733203637926",
             "lon": "105.25586927216207"
-        }
-    ],
-    "banten": [
+        },
         {
             "nama": "Biro Psikologi EDUfa Counseling & EDUfa Autism Therapy Centre Kota Cilegon",
             "alamat": "Ruko Perumahan Metro Cilegon Blok E-1. 14, Jl. Raya Bojonegara, Pangurawi, Masigit, Kec. Jombang, Kota Cilegon, Banten 42414",
@@ -402,9 +381,7 @@
             "alamat": "Jl. Maleo V Blok Jb 2 No.5, Pd. Pucung, Kec. Pd. Aren, Kota Tangerang Selatan, Banten 15229",
             "lat": "-6.278896831424044",
             "lon": "106.717672511449"
-        }
-    ],
-    "depok": [
+        },
         {
             "nama": "Karunia Center Autism Boarding School",
             "alamat": "Jl. H. Suhaemi Gg H Baan Parung Tengah Rt 003/03 No. 14, Duren Mekar, Kec. Bojongsari, Kota Depok, Jawa Barat 114517",
@@ -422,9 +399,7 @@
             "alamat": "JRVQ+W8W, Gang Bhakti, Tugu, Cimanggis, Depok City, West Java 16451",
             "lat": "-6.355119638651791",
             "lon": "106.83830954082208"
-        }
-    ],
-    "bekasi": [
+        },
         {
             "nama": "KID ABA Bekasi",
             "alamat": "Grand Wisata Blok AA 11 No.56, Jl. Celebration Boulevard No.58, Lambangsari, Kabupaten Bekasi, Jawa Barat 17510",
@@ -442,9 +417,7 @@
             "alamat": "Jl. Alhusna No.39, 01, Jatikramat, Jatiasih, RT.001/RW.001, Jatibening, Kec. Pd. Gede, Kota Bks, Jawa Barat 17421",
             "lat": "-6.271386374403703",
             "lon": "106.95115172857854"
-        }
-    ],
-    "Bogor": [
+        },
         {
             "nama": "AMG CLINIC - Klinik Tumbuh Kembang Anak & Klinik Psikologi",
             "alamat": "Jl. Nuansa Hijau No.4, Ciomas Rahayu, Kec. Ciomas, Kabupaten Bogor, Jawa Barat 16610",
@@ -462,9 +435,7 @@
             "alamat": "Jln. Villa Bogor Indah Ruko blok BB2 no.9, RT.01/RW.14, Kedunghalang, Bogor Utara, Bogor City, West Java 16157",
             "lat": "-6.546676917011481",
             "lon": "106.80684878161519"
-        }
-    ],
-    "jabar": [
+        },
         {
             "nama": "Kantor Pusat Biro Psikologi Edufa Counseling",
             "alamat": "Jl. Windu No.6, Malabar, Kec. Lengkong, Kota Bandung, Jawa Barat 40262",
@@ -494,9 +465,7 @@
             "alamat": "Jl. Kotabaru I No.4, Ciateul, Kec. Regol, Kota Bandung, Jawa Barat 40252",
             "lat": "-6.936697898408273",
             "lon": "107.6093673929284"
-        }
-    ],
-    "yogya": [
+        },
         {
             "nama": "Biro Psikologi EDUfa Counseling & EDUfa Autism Therapy Centre Yogyakarta",
             "alamat": "Perum Tambak Mas Jl. Godean No.41, Sumberan, Ngestiharjo, Kab, Kabupaten Bantul, Daerah Istimewa Yogyakarta 55182",
@@ -526,9 +495,7 @@
             "alamat": "Jl. Tengiri IV No.12, RT.11/RW.03, Mladangan, Minomartani, Kec. Ngaglik, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55581",
             "lat": "-7.74541517378902",
             "lon": "110.40562276028326"
-        }
-    ],
-    "jateng": [
+        },
         {
             "nama": "EDUfa AUTISM THERAPY CENTRE SEMARANG dan BIRO PSIKOLOGI EDUfa COUNSELING, Terapi Autis Semarang, Terapi anak dengan ADHD.",
             "alamat": "Jl. Unta Raya No.1, Pandean Lamper, Kec. Gayamsari, Kota Semarang, Jawa Tengah 50166",
@@ -558,9 +525,7 @@
             "alamat": "Jl. Mulawarman Utara 1 No.39, Bulusan, Kec. Tembalang, Kota Semarang, Jawa Tengah 50277",
             "lat": "-7.065975282641919",
             "lon": "110.43877461879134"
-        }
-    ],
-    "jatim": [
+        },
         {
             "nama": "MATAHATI Autism Clinic Center (Araya Branch Office)",
             "alamat": "Jalan Sukosemolo Ruko Araya Tahap 2, Jl. Galaxi Bumi Permai, Semolowaru, Kec. Sukolilo, Kota SBY, Jawa Timur 60119",
