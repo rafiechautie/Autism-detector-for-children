@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Capstone Project/Autism-detector-for-children/Mobile-Development/AudiProject/AudiProject/app/src/main/res/drawable/bg_form.xml" value="0.1" />
+        <entry key="..\:/Capstone Project/Autism-detector-for-children/Mobile-Development/AudiProject/AudiProject/app/src/main/res/drawable/ic_baseline_account_circle_24.xml" value="0.1685" />
+        <entry key="..\:/Capstone Project/Autism-detector-for-children/Mobile-Development/AudiProject/AudiProject/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.1685" />
+        <entry key="..\:/Capstone Project/Autism-detector-for-children/Mobile-Development/AudiProject/AudiProject/app/src/main/res/drawable/ic_dashboard_black_24dp.xml" value="0.124" />
+        <entry key="..\:/Capstone Project/Autism-detector-for-children/Mobile-Development/AudiProject/AudiProject/app/src/main/res/drawable/ic_home_black_24dp.xml" value="0.124" />
+        <entry key="..\:/Capstone Project/Autism-detector-for-children/Mobile-Development/AudiProject/AudiProject/app/src/main/res/layout/activity_autism_detection.xml" value="0.25416666666666665" />
+        <entry key="..\:/Capstone Project/Autism-detector-for-children/Mobile-Development/AudiProject/AudiProject/app/src/main/res/layout/activity_fitur_detection.xml" value="0.25416666666666665" />
+        <entry key="..\:/Capstone Project/Autism-detector-for-children/Mobile-Development/AudiProject/AudiProject/app/src/main/res/layout/activity_home.xml" value="0.1" />
+        <entry key="..\:/Capstone Project/Autism-detector-for-children/Mobile-Development/AudiProject/AudiProject/app/src/main/res/layout/activity_home_page.xml" value="0.12360688956433637" />
+        <entry key="..\:/Capstone Project/Autism-detector-for-children/Mobile-Development/AudiProject/AudiProject/app/src/main/res/layout/activity_login.xml" value="0.12360688956433637" />
+        <entry key="..\:/Capstone Project/Autism-detector-for-children/Mobile-Development/AudiProject/AudiProject/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Capstone Project/Autism-detector-for-children/Mobile-Development/AudiProject/AudiProject/app/src/main/res/layout/activity_maps_therapy.xml" value="0.25416666666666665" />
+        <entry key="..\:/Capstone Project/Autism-detector-for-children/Mobile-Development/AudiProject/AudiProject/app/src/main/res/layout/activity_maps_therapy_location.xml" value="0.25416666666666665" />
+        <entry key="..\:/Capstone Project/Autism-detector-for-children/Mobile-Development/AudiProject/AudiProject/app/src/main/res/layout/activity_register.xml" value="0.12360688956433637" />
+        <entry key="..\:/Capstone Project/Autism-detector-for-children/Mobile-Development/AudiProject/AudiProject/app/src/main/res/layout/activity_reset_password.xml" value="0.12360688956433637" />
+        <entry key="..\:/Capstone Project/Autism-detector-for-children/Mobile-Development/AudiProject/AudiProject/app/src/main/res/layout/fragment_dashboard.xml" value="0.25416666666666665" />
+        <entry key="..\:/Capstone Project/Autism-detector-for-children/Mobile-Development/AudiProject/AudiProject/app/src/main/res/layout/fragment_home.xml" value="0.25416666666666665" />
+        <entry key="..\:/Capstone Project/Autism-detector-for-children/Mobile-Development/AudiProject/AudiProject/app/src/main/res/layout/fragment_maps_therapy.xml" value="0.11302083333333333" />
+        <entry key="..\:/Capstone Project/Autism-detector-for-children/Mobile-Development/AudiProject/AudiProject/app/src/main/res/layout/fragment_notifications.xml" value="0.25416666666666665" />
+        <entry key="..\:/Capstone Project/Autism-detector-for-children/Mobile-Development/AudiProject/AudiProject/app/src/main/res/layout/fragment_profile.xml" value="0.1" />
+        <entry key="..\:/Capstone Project/Autism-detector-for-children/Mobile-Development/AudiProject/AudiProject/app/src/main/res/menu/bottom_nav_menu.xml" value="0.11302083333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectPlainTextFileTypeManager">
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/capstoneproject/audiproject/ui/home/HomePageActivity.kt" />
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

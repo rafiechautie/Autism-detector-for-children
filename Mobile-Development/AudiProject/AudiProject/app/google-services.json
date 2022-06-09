@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "400591258639",
+    "project_id": "tesauth-352007",
+    "storage_bucket": "tesauth-352007.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:400591258639:android:cbd4507d35794fabde0f7a",
+        "android_client_info": {
+          "package_name": "com.capstoneproject.audiproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "400591258639-gvkcr7r5ar5lug95mgdh56962gghavq5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.capstoneproject.audiproject",
+            "certificate_hash": "6949ea5a2f33c6189403b73285fa2d58ea2b2c75"
+          }
+        },
+        {
+          "client_id": "400591258639-00r9m4geslttq0htrfkqv3g90mhcp303.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvZgPifDOfBB1eKC8t-60BTj0ID7kLNZY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "400591258639-00r9m4geslttq0htrfkqv3g90mhcp303.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
