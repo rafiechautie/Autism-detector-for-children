@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">AudiProject</string>
+    <string name="web_client_id">400591258639-00r9m4geslttq0htrfkqv3g90mhcp303.apps.googleusercontent.com</string>
+    <string name="text_belumdaftar">Don\'t have an account yet? <font color="#6FA2E9"><b>Register here!</b></font></string>
+    <string name="text_sudahDaftar">Already have an account? <font color="#6FA2E9"><b>Login here!</b></font></string>
+    <string name="tvTermsConditions">By signing up, you’re agree to our <font color="#6FA2E9"><b>Terms &amp; Conditions</b></font> and <font color="#6FA2E9"><b>Privacy Policy</b></font></string>
+    <string name="textResetPassword"> <font color="#6FA2E9"><b>Forgot password?</b></font> Please enter your email and we\'ll send you a link to get back into your account.</string>
+    <string name="title_activity_home_page">HomePageActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_map_therapy">Map Therapy</string>
+    <string name="title_profile">Profile</string>
+    <string name="title_activity_maps_therapy_location">MapsTherapyLocationActivity</string>
+    <string name="title_activity_maps_therapy">MapsTherapyActivity</string>
+</resources>
