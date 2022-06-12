@@ -4,6 +4,6 @@
  
   
 <h3>Dataset:<h3>
-The Original Datasets obtain from [Autism Image Dataset](https://www.kaggle.com/datasets/cihan063/autism-image-data).
-
+The Original Datasets obtain from [Autism Image Dataset](https://www.kaggle.com/datasets/cihan063/autism-image-data/)
+ 
 
