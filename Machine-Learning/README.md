@@ -1,9 +1,9 @@
 <h1>This repository for Machine-Learning Path<h1>
 
-<h3>Machine Learning:</h3>
- 
-  
-<h3>Dataset:<h3>
-The Original Datasets obtain from [Autism Image Dataset](https://www.kaggle.com/datasets/cihan063/autism-image-data/)
- 
+<h2>Machine Learning:</h2>
+Collecting datasets, data preprocessing and building the model of autism detection. The data modeling is done by using ratio split folders experiment, preprocessing image (ImageDataGenerator, Image Augmentation), dropout, early stopping, and checkpoint. For the improvement, we try several transfer learning by VGG16, VGG19, MobileNet, MobileNetV2, InceptionV3, ResNet50, ResNet101, ResNet152, ResNet50V2, ResNet101V2, Xception, EfficientNetB0, EfficientNetB7. For the best model obtained, we do the fine-tuning to increase the accuracy. The model was saved with model.tflite and chosen as the best model for deployment.
+
+<h2>Dataset:<h2>
+Original datasets obtained from https://www.kaggle.com/datasets/cihan063/autism-image-data.
+ <p>Preview of the dataset can be seen below.</p> 
 
