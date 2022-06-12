@@ -10,3 +10,6 @@ Collecting datasets, data preprocessing and building the model of autism detecti
 <br>
 Preview Dataset
 </p>
+
+ <h2>Collabs:</h2>
+ [Collabs1](../blob/main/Machine-Learning/Capstone.ipynb)
