@@ -6,6 +6,6 @@ Collecting datasets, data preprocessing and building the model of autism detecti
 <h2>Datasets:</h2>
 <p>The original datasets can be obatined in https://www.kaggle.com/datasets/cihan063/autism-image-data.<br>
 Preview of the dataset used can be seen below.</p>
-![alt text][logo]
+![Preview dataset][logo]
 [logo]: https://github.com/rafiechautie/Autism-detector-for-children/tree/main/Machine-Learning/image/data.png "Preview dataset")  
 
