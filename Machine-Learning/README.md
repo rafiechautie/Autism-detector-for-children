@@ -47,3 +47,11 @@ Preview Dataset
   <li>Save best model</li>
  <ol>
  
+<h2>References:</h2> 
+  
+- [x] [Paper_01](https://www.mdpi.com/2076-3425/11/11/1446/htm)
+- [x] [Paper_02](https://www.mdpi.com/2076-3425/12/1/94/htm)
+- [x] [Paper_03](https://www.frontiersin.org/articles/10.3389/fncom.2021.789998/full)
+- [x] [Paper_04](https://ieeexplore.ieee.org/document/9397020)
+- [x] [Paper_05](https://www.hindawi.com/journals/cin/2022/8709145/)
+- [x] [Paper_06](https://www.hindawi.com/journals/cmmm/2022/3941049/)
