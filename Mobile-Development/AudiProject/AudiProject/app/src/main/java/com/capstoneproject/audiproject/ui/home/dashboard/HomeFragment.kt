@@ -13,15 +13,17 @@ import com.capstoneproject.audiproject.R
 import com.capstoneproject.audiproject.data.remote.response.IndonesiaItem
 import com.capstoneproject.audiproject.databinding.FragmentHomeBinding
 import com.capstoneproject.audiproject.ui.detection.FiturDetection
+import com.capstoneproject.audiproject.ui.home.consultation.ConsultationActivity
 import com.capstoneproject.audiproject.ui.home.map.MapViewModel
 import com.capstoneproject.audiproject.ui.home.map.MapsTherapyActivity
+import com.capstoneproject.audiproject.utils.button.ButtonDetection
 import com.github.dhaval2404.imagepicker.ImagePicker
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.FirebaseUser
 import java.io.IOException
 
 
-class HomeFragment : Fragment(), View.OnClickListener {
+class HomeFragment : Fragment() {
 
     private var _binding: FragmentHomeBinding? = null
     private val binding get() = _binding!!
@@ -29,6 +31,10 @@ class HomeFragment : Fragment(), View.OnClickListener {
     private lateinit var uri: Uri
     private lateinit var arrayListMaps: ArrayList<IndonesiaItem>
     private lateinit var viewModel: MapViewModel
+
+    private lateinit var btnDetection: View
+    private lateinit var btnNearestTheraphy: View
+    private lateinit var btnConsultation: View
 
 
     override fun onCreateView(
@@ -44,15 +50,15 @@ class HomeFragment : Fragment(), View.OnClickListener {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        user = FirebaseAuth.getInstance().currentUser!!
-        binding.username.text = user.displayName
+        setUsername()
+
+        btnDetection = view.findViewById(R.id.btnDetection)
+        btnNearestTheraphy = view.findViewById(R.id.btnNearestTheraphy)
+        btnConsultation = view.findViewById(R.id.btnConsultation)
 
         setupButton()
 
         viewModel = ViewModelProvider(this)[MapViewModel::class.java]
-
-        viewModel.findLocation()
-
         viewModel.findLocation()
 
         viewModel.listLocation.observe(viewLifecycleOwner){
@@ -61,20 +67,30 @@ class HomeFragment : Fragment(), View.OnClickListener {
                 arrayListMaps.addAll(it)
             }
         }
+    }
 
-        binding.ivMapsTherapy.setOnClickListener(this)
+    private fun setUsername() {
+        user = FirebaseAuth.getInstance().currentUser!!
+        val stringUsername = "Hello," + System.getProperty("line.separator") + user.displayName
+        binding.username.text = stringUsername
     }
 
     private fun setupButton() {
-        binding.apply {
+        btnDetection.setOnClickListener {
+            ImagePicker.Companion.with(this@HomeFragment)
+                .compress(1024)
+                .maxResultSize(1080, 1080)
+                .start(2)
+        }
 
-            btnDetection.setOnClickListener {
-                ImagePicker.Companion.with(this@HomeFragment)
-                    .compress(1024)
-                    .maxResultSize(1080, 1080)
-                    .start(2)
-            }
+        btnNearestTheraphy.setOnClickListener {
+            val intent = Intent(requireActivity(), MapsTherapyActivity::class.java)
+            intent.putExtra(ARRAY_LIST_MAPS, arrayListMaps)
+            startActivity(intent)
+        }
 
+        btnConsultation.setOnClickListener {
+            startActivity(Intent(requireActivity(), ConsultationActivity::class.java))
         }
     }
 
@@ -83,7 +99,7 @@ class HomeFragment : Fragment(), View.OnClickListener {
         if (requestCode == 2 && resultCode == AppCompatActivity.RESULT_OK && data != null) {
             uri = data.data!!
             try {
-                val intent = Intent(requireActivity(), FiturDetection::class.java)
+                val intent = Intent(activity, FiturDetection::class.java)
                 intent.putExtra(FiturDetection.URI_IMAGE, uri.toString())
                 startActivity(intent)
             } catch (e: IOException) {
@@ -91,16 +107,6 @@ class HomeFragment : Fragment(), View.OnClickListener {
             }
         }
 
-    }
-
-    override fun onClick(view: View) {
-        when{
-            view.id == R.id.iv_maps_therapy -> {
-                val intent = Intent(requireActivity(), MapsTherapyActivity::class.java)
-                intent.putExtra(ARRAY_LIST_MAPS, arrayListMaps)
-                startActivity(intent)
-            }
-        }
     }
 
     override fun onDestroyView() {
@@ -111,6 +117,5 @@ class HomeFragment : Fragment(), View.OnClickListener {
     companion object {
         const val ARRAY_LIST_MAPS = "array_list_maps"
     }
-
 
 }

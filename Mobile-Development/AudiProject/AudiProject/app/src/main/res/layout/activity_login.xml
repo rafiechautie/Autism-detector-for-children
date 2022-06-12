@@ -127,19 +127,19 @@
         app:layout_constraintEnd_toEndOf="@id/btnLogin"
         app:layout_constraintBottom_toTopOf="@id/btnLoginWithGoogle"/>
 
-    <Button
+    <include
         android:id="@+id/btnLogin"
-        android:layout_width="0dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="LOGIN"
         android:layout_marginStart="16dp"
-        android:layout_marginEnd="16dp"
         android:layout_marginTop="10dp"
+        android:layout_marginEnd="16dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/btnForgotPassword"/>
+        app:layout_constraintTop_toBottomOf="@+id/btnForgotPassword"
+        layout="@layout/button_progress_login"/>
 
-    <Button
+    <include
         android:id="@+id/btnLoginWithGoogle"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -149,7 +149,8 @@
         android:layout_marginTop="15dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/tvOr"/>
+        app:layout_constraintTop_toBottomOf="@id/tvOr"
+        layout="@layout/button_progress_login_google"/>
 
     <TextView
         android:id="@+id/btnBelumDaftar"

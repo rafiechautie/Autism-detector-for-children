@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <View
+        android:id="@+id/shape"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/button_strokes_2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <ImageView
+        android:id="@+id/vectorSettings"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/ic_consult"
+        android:layout_marginTop="17dp"
+        app:layout_constraintTop_toTopOf="@id/shape"
+        app:layout_constraintStart_toStartOf="@id/shape"
+        app:layout_constraintEnd_toEndOf="@+id/shape"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_medium"
+        android:text="Consultation"
+        android:textColor="#3CA3B1"
+        android:textSize="9sp"
+        android:layout_marginTop="2dp"
+        app:layout_constraintTop_toBottomOf="@id/vectorSettings"
+        app:layout_constraintStart_toStartOf="@id/vectorSettings"
+        app:layout_constraintEnd_toEndOf="@id/vectorSettings"/>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

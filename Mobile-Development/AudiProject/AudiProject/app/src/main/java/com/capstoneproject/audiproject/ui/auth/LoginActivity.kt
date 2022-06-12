@@ -4,13 +4,14 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.text.Editable
+import android.view.View
 import android.widget.Toast
-import com.capstoneproject.audiproject.MainActivity
 import com.capstoneproject.audiproject.R
 import com.capstoneproject.audiproject.databinding.ActivityLoginBinding
-import com.capstoneproject.audiproject.ui.detection.AutismDetectionActivity
 
 import com.capstoneproject.audiproject.ui.home.HomePageActivity
+import com.capstoneproject.audiproject.utils.button.ButtonProgress
+import com.capstoneproject.audiproject.utils.button.ButtonProgressGoogle
 import com.google.android.gms.auth.api.signin.GoogleSignIn
 import com.google.android.gms.auth.api.signin.GoogleSignInClient
 import com.google.android.gms.auth.api.signin.GoogleSignInOptions
@@ -23,14 +24,17 @@ class LoginActivity : AppCompatActivity() {
     private lateinit var binding: ActivityLoginBinding
     private lateinit var auth: FirebaseAuth
     private lateinit var googleSign: GoogleSignInClient
-
+    private lateinit var btnLogin: View
+    private lateinit var btnLoginGoogle: View
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityLoginBinding.inflate(layoutInflater)
         setContentView(binding.root)
-
         supportActionBar?.hide()
+
+        btnLogin = findViewById(R.id.btnLogin)
+        btnLoginGoogle = findViewById(R.id.btnLoginWithGoogle)
 
         auth = FirebaseAuth.getInstance()
         setLoginForm()
@@ -49,7 +53,6 @@ class LoginActivity : AppCompatActivity() {
         binding.apply {
             val email = formEmail.text
             val password = formPassword.text
-
             setButton(email, password)
         }
     }
@@ -58,8 +61,10 @@ class LoginActivity : AppCompatActivity() {
         email: Editable?,
         password: Editable?)
     {
-        binding.apply {
-            btnLogin.setOnClickListener {
+        val button = ButtonProgress(this@LoginActivity, btnLogin)
+        btnLogin.setOnClickListener {
+            button.isPressed()
+            binding.apply {
                 when {
                     email?.trim().toString().isEmpty() -> {
                         formEmail.error = "Kolom ini tidak boleh kosong!"
@@ -76,11 +81,15 @@ class LoginActivity : AppCompatActivity() {
                     }
                 }
             }
+        }
 
-            btnLoginWithGoogle.setOnClickListener {
-                loginGoogle()
-            }
+        val buttonGoogle = ButtonProgressGoogle(this, btnLoginGoogle)
+        btnLoginGoogle.setOnClickListener {
+            buttonGoogle.isPressed()
+            loginGoogle()
+        }
 
+        binding.apply {
             btnBelumDaftar.setOnClickListener {
                 startActivity(Intent(this@LoginActivity, RegisterActivity::class.java))
                 finish()
@@ -88,6 +97,7 @@ class LoginActivity : AppCompatActivity() {
 
             btnForgotPassword.setOnClickListener {
                 startActivity(Intent(this@LoginActivity, ResetPasswordActivity::class.java))
+                finish()
             }
         }
     }
@@ -98,16 +108,21 @@ class LoginActivity : AppCompatActivity() {
     }
 
     private fun loginUser(email: String, password: String) {
+        val button = ButtonProgress(this@LoginActivity, btnLogin)
         auth.signInWithEmailAndPassword(email, password).addOnCompleteListener { login ->
             if (login.isSuccessful && login.result != null) {
                 Toast.makeText(this, "Login sukses!", Toast.LENGTH_SHORT).show()
+                button.afterProgress()
                 if (login.result.user != null) {
+                    button.afterProgress()
                     startHomeActivity()
                 } else {
                     Toast.makeText(this, "Login terlebih dahulu!", Toast.LENGTH_SHORT).show()
+                    button.afterProgress()
                 }
             } else {
                 Toast.makeText(this, login.exception?.localizedMessage, Toast.LENGTH_SHORT).show()
+                button.afterProgress()
             }
         }
     }
@@ -137,17 +152,20 @@ class LoginActivity : AppCompatActivity() {
     }
 
     private fun firabaseAuthWithGoogle(idToken: String?) {
+        val buttonGoogle = ButtonProgressGoogle(this, btnLoginGoogle)
         val credential = GoogleAuthProvider.getCredential(idToken, null)
         auth.signInWithCredential(credential).addOnCompleteListener { task ->
             if (task.isSuccessful) {
+                buttonGoogle.afterProgress()
                 startHomeActivity()
             } else {
                 Toast.makeText(this, task.exception?.localizedMessage, Toast.LENGTH_SHORT).show()
+                buttonGoogle.afterProgress()
             }
         }
     }
 
- /*   override fun onStart() {
+/*    override fun onStart() {
         super.onStart()
         val checkSession = auth.currentUser
         if (checkSession != null) {

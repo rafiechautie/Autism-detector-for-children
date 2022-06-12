@@ -11,4 +11,6 @@
     <string name="title_profile">Profile</string>
     <string name="title_activity_maps_therapy_location">MapsTherapyLocationActivity</string>
     <string name="title_activity_maps_therapy">MapsTherapyActivity</string>
+    <string name="if_autistic">Your child may be indicated to have symptoms of autism, <font color="#6FA2E9">please go to the nearest therapy place</font> or <font color="#6FA2E9">consult a doctor for more details</font></string>
+    <string name="if_non_autistic">Your child is not indicated to have symptoms of autism</string>
 </resources>
