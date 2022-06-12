@@ -4,9 +4,11 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.text.Editable
+import android.view.View
 import android.widget.Toast
 import com.capstoneproject.audiproject.R
 import com.capstoneproject.audiproject.databinding.ActivityRegisterBinding
+import com.capstoneproject.audiproject.utils.button.ButtonProgress
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.UserProfileChangeRequest
 
@@ -14,11 +16,16 @@ class RegisterActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityRegisterBinding
     private lateinit var auth: FirebaseAuth
+    private lateinit var btnRegister: View
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityRegisterBinding.inflate(layoutInflater)
         setContentView(binding.root)
+        supportActionBar?.hide()
+
+        btnRegister = findViewById(R.id.btnRegister)
 
         auth = FirebaseAuth.getInstance()
         setRegisterForm()
@@ -41,8 +48,10 @@ class RegisterActivity : AppCompatActivity() {
         password: Editable?,
         confirmPassword: Editable?)
     {
-        binding.apply {
-            btnRegister.setOnClickListener {
+        val buttonRegister = ButtonProgress(this, btnRegister)
+        btnRegister.setOnClickListener {
+            buttonRegister.isPressed()
+            binding.apply {
                 when {
                     fullname?.trim().toString().isEmpty() -> {
                         formFullname.error = "Kolom ini tidak boleh kosong!"
@@ -79,18 +88,20 @@ class RegisterActivity : AppCompatActivity() {
                     }
                 }
             }
+        }
 
-            btnSudahDaftar.setOnClickListener {
-                startActivity(Intent(this@RegisterActivity, LoginActivity::class.java))
-                finish()
-            }
+        binding.btnSudahDaftar.setOnClickListener {
+            startActivity(Intent(this@RegisterActivity, LoginActivity::class.java))
+            finish()
         }
     }
 
     private fun createUser(fullname: String, email: String, password: String) {
+        val buttonRegister = ButtonProgress(this, btnRegister)
         auth.createUserWithEmailAndPassword(email, password).addOnCompleteListener { create ->
             if (create.isSuccessful && create.result != null) {
                 val user = create.result.user
+                buttonRegister.afterProgress()
                 if (user != null) {
                     val request = UserProfileChangeRequest.Builder()
                         .setDisplayName(fullname)
@@ -100,14 +111,17 @@ class RegisterActivity : AppCompatActivity() {
                     }
                 } else {
                     Toast.makeText(this, "Register gagal!", Toast.LENGTH_SHORT).show()
+                    buttonRegister.afterProgress()
                 }
             } else {
                 Toast.makeText(this, create.exception?.localizedMessage, Toast.LENGTH_SHORT).show()
+                buttonRegister.afterProgress()
             }
         }
     }
 
     private fun startLoginActivity() {
         startActivity(Intent(this, LoginActivity::class.java))
+        finish()
     }
 }
