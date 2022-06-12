@@ -47,7 +47,7 @@ Preview Dataset
   <li>Save best model</li>
  <ol>
  
-<h2>References:</h2> 
+<h2>References:</h2>
   
 - [x] [Paper_01](https://www.mdpi.com/2076-3425/11/11/1446/htm)
 - [x] [Paper_02](https://www.mdpi.com/2076-3425/12/1/94/htm)
