@@ -38,45 +38,8 @@ This project is our final project for Google Bangkit Academy 2021.
 
 **Backgrounder:**
 
-Autism is a syndrome of brain development that attacks the sufferer. The person that has autism syndrome usually has difficulty communicating and interacting with other people. This type of disorder has been present since childhood. Most parents don’t know that their children have autism symptoms. Most parents also have no knowledge about how to deal with autism syndrome for their children. The question is how can parents detect whether their child has autism or not? And how do they deal with it? With this application, the parents that have a child can detect whether their child has autism symptoms or not. By knowing earlier, the child who has autism syndrome can be treated earlier so that the changes to recovery are greater. With this application we also hope to provide education and guidance for parents in self-therapy of children with autism. also with this application as the first check in predicting autism before doing a more detailed check by a doctor. Our team hopes the proposed application will be a solution for parents who have children with autism syndrome.
+Autism is a syndrome of brain development that attacks the sufferer. The person that has autism syndrome usually has difficulty communicating and interacting with other people. This type of disorder has been present since childhood. Most parents don’t know that their children have autism symptoms. Most parents also have no knowledge about how to deal with autism syndrome for their children. The question is how can parents detect whether their child has autism or not? And how do they deal with it? With this application, the parents that have a child can detect whether their child has autism symptoms or not. By knowing earlier, the child who has autism syndrome can be treated earlier so that the changes to recovery are greater. With this application we also hope to provide nearby therapy place from user location. also with this application as the first check in predicting autism before doing a more detailed check by a doctor. Our team hopes the proposed application will be a solution for parents who have children with autism syndrome.
 
 ## Screenshots
 
-<p align="center">
-  <img src="/misc/img/01.jpg" width="200">
-  <img src="/misc/img/02.jpg" width="200">
-  <img src="/misc/img/03.jpeg" width="200">
-  <img src="/misc/img/04.jpg" width="200">
-</p>
-
-<p align="center">
-  <img src="/misc/img/05.jpg" width="210">
-  <img src="/misc/img/06.jpg" width="210">
-  <img src="/misc/img/07.jpg" width="210">
-</p>
-
-<p align="center">
-  <img src="/misc/img/08.jpg" width="210">
-  <img src="/misc/img/09.jpg" width="210">
-  <img src="/misc/img/10.jpg" width="210">
-</p>
-
-<p align="center">
-  <img src="/misc/img/11.jpg" width="210">
-  <img src="/misc/img/12.jpg" width="210">
-</p>
-
-<p align="center">
-  <img src="/misc/img/13.jpg" width="210">
-  <img src="/misc/img/14.jpg" width="210">
-</p>
-
-<p align="center">
-  <img src="/misc/img/15.jpg" width="210">
-  <img src="/misc/img/16.jpg" width="210">
-</p>
-
-<p align="center">
-  <img src="/misc/img/17.jpg" width="210">
-</p>
 
