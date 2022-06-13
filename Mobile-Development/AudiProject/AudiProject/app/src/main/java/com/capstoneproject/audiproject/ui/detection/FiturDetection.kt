@@ -12,6 +12,7 @@ import com.capstoneproject.audiproject.R
 import com.capstoneproject.audiproject.data.remote.response.IndonesiaItem
 import com.capstoneproject.audiproject.utils.labels.Labels
 import com.capstoneproject.audiproject.databinding.ActivityFiturDetectionBinding
+import com.capstoneproject.audiproject.ml.Mobilenetv2Ft
 import com.capstoneproject.audiproject.ml.ModelUnquant
 import com.capstoneproject.audiproject.ui.home.consultation.ConsultationActivity
 import com.capstoneproject.audiproject.ui.home.dashboard.HomeFragment
@@ -102,7 +103,7 @@ class FiturDetection : AppCompatActivity() {
         val fileLabels = "labels.txt"
         val stringLabels = application.assets.open(fileLabels).bufferedReader().use { it.readText() }
         val townList = stringLabels.split("\n")
-        val modelTensorflow = ModelUnquant.newInstance(this)
+        val modelTensorflow = Mobilenetv2Ft.newInstance(this)
 
         if (bitmap != null) {
             val inputImage = bitmap.copy(Bitmap.Config.ARGB_8888, true)
@@ -132,13 +133,16 @@ class FiturDetection : AppCompatActivity() {
         val score = outputResults[0].predictScore
         val roundingScore = (score * 100.0).roundToInt()
 
-        if (outputResults[0].labelName == "autistic") {
-            binding.resultLabel.text = getString(R.string.if_autistic)
-            binding.btnConsultation.visibility = View.VISIBLE
-            binding.btnNearestTheraphy.visibility = View.VISIBLE
-        } else if(outputResults[0].labelName == "non autistic") {
-            binding.resultLabel.text = getString(R.string.if_non_autistic)
-        }
+//        if (outputResults[0].labelName == "autistic") {
+//            binding.resultLabel.text = getString(R.string.if_autistic)
+//            binding.btnConsultation.visibility = View.VISIBLE
+//            binding.btnNearestTheraphy.visibility = View.VISIBLE
+//        } else if(outputResults[0].labelName == "non autistic") {
+//            binding.resultLabel.text = getString(R.string.if_non_autistic)
+//        }
+        binding.resultLabel.text = outputResults[0].labelName
+        binding.btnConsultation.visibility = View.VISIBLE
+        binding.btnNearestTheraphy.visibility = View.VISIBLE
         binding.resultScore.text = roundingScore.toString() + "%"
 
     }
