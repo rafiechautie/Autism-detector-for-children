@@ -19,10 +19,12 @@ Fully use Google Cloud Platform (GCP)
   </p>
   
   <h3>API Location</h3>
-  <h3>Steps</h3>
+  <p>
+    Steps
     <li>Make a JSON file of therapy places in Indonesia</li>
     <li>Build a REST API using Node.js</li>
-    <p>Method: GET</p>
-    <p>Auth Required: NO</p>
+    Method: GET
+    Auth Required: NO
     <li>Deploy on Compute Engine</li>
-  <p>Endpoint: http://34.101.192.188:8080/<p>
+    Endpoint: http://34.101.192.188:8080
+  </p>
