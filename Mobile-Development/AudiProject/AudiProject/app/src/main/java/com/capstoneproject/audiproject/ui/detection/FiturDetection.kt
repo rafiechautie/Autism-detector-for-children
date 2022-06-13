@@ -97,6 +97,7 @@ class FiturDetection : AppCompatActivity() {
         }
     }
 
+    //prediksi image
     private fun imagePredict(bitmap: Bitmap?) {
         val fileLabels = "labels.txt"
         val stringLabels = application.assets.open(fileLabels).bufferedReader().use { it.readText() }
