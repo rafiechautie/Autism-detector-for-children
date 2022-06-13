@@ -13,7 +13,10 @@ Fully use Google Cloud Platform (GCP)
   
   <h3>Firebase Authentication</h3>
   <p align="center">
-  <img align="center" src="firebase-auth/firebase authentication.png"</img>
+    Sign-In Method:
+    <li>Email/Password</li>
+    <li>Google</li>
+  <img align="center" src="firebase-auth/firebase-auth.png"</img>
     <br>
     Preview Users Data
   </p> 
