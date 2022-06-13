@@ -26,5 +26,5 @@ Fully use Google Cloud Platform (GCP)
     Method: GET </br>
     Auth Required: NO
     <li>Deploy on Compute Engine</li>
-    </br> Endpoint: http://34.101.192.188:8080
+    Endpoint: http://34.101.192.188:8080
   </p>
