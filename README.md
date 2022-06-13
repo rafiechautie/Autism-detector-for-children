@@ -42,4 +42,68 @@ Autism is a syndrome of brain development that attacks the sufferer. The person 
 
 ## Screenshots
 
+<p align="center">
+  <img src="splashcreen.jpeg" width="200">
+  <img src="login.jpeg" width="200">
+  <img src="/register,jpeg" width="200">
+</p>
 
+<p align="center">
+  <img src="main.png" width="210">
+  <img src="/misc/img/06.jpg" width="210">
+  <img src="/misc/img/07.jpg" width="210">
+</p>
+
+<p align="center">
+  <img src="/misc/img/08.jpg" width="210">
+  <img src="/misc/img/09.jpg" width="210">
+  <img src="/misc/img/10.jpg" width="210">
+</p>
+
+<p align="center">
+  <img src="/misc/img/11.jpg" width="210">
+  <img src="/misc/img/12.jpg" width="210">
+</p>
+
+<p align="center">
+  <img src="/misc/img/13.jpg" width="210">
+  <img src="/misc/img/14.jpg" width="210">
+</p>
+
+<p align="center">
+  <img src="/misc/img/15.jpg" width="210">
+  <img src="/misc/img/16.jpg" width="210">
+</p>
+
+<p align="center">
+  <img src="/misc/img/17.jpg" width="210">
+</p>
+
+
+## Requirement
+* Android Studio Bumblebee
+* Android Device or Android Emulator 
+* Emulator / External Device
+* USB Cable (to Connect Android Device to your Computer)
+
+## Installation
+
+#### 1. Clone this Project to your Computer
+```bash
+git clone https://github.com/rafiechautie/Autism-detector-for-children.git
+```
+
+or you can use Android Studio 
+
+File > New > Project from Version Control ...
+
+#### 2. Open the Project in your Android Studio
+Open Android Studio and select open an existing project.
+
+#### 3. Run Project in Android Studio
+Wait for Gradle Build to Finish and finally press the `Run > Run ‘app’`. Now the app has been installed in your phone / emulator. Make sure that you have configured your android device or emulator 
+
+### the orther way
+
+#### 1. download file APK in https://drive.google.com/file/d/13v1orGnO2W3ND_NGA3awuj4rSJ5-eB8A/view?usp=sharing 
+### 2. install that file in your mobile phone
