@@ -20,7 +20,7 @@ Fully use Google Cloud Platform (GCP)
   
   <h3>API Location</h3>
   <p>
-    Steps
+    Steps:
     <li>Make a JSON file of therapy places in Indonesia</li>
     <li>Build a REST API using Node.js</li>
     Method: GET </br>
