@@ -2,8 +2,8 @@
 
 <h2>Services</h2>
 Fully use Google Cloud Platform
-1. Firebase
-2. Compute Engine
+  <li>Firebase</li>
+  <li>Compute Engine</li>
   
 <h2>Implementation</h2>
 1. Provide Firebase Services (Firebase Auth) to store users account.
