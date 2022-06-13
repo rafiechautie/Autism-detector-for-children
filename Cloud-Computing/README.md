@@ -18,12 +18,14 @@ AUDI (Autism-detector-for-children)
 Fully use Google Cloud Platform (GCP)
   <li>Firebase</li>
   <li>Compute Engine</li>
+  <li>APIs and Services</li>
   
 <h2>Implementation</h2>
   <li>Provide Firebase Services (Firebase Authentication) to store users account.</li>
   <li>Make a JSON file that contains location data of therapy places in Indonesia.</li>
   <li>Build a REST API location and make an endpoint of it.</li>
   <li>Deploy the API on Compute Engine to make it accessible.</li>
+  <li>Provide APIs and Services (Maps SDK for Android, Geolocation API, Places API).</li>
   
   <h3>Firebase Authentication</h3>
   <p>
