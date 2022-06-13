@@ -12,16 +12,17 @@ Fully use Google Cloud Platform (GCP)
   <li>Deploy the API on Compute Engine to make it accessible.</li>
   
   <h3>Firebase Authentication</h3>
-  <p align="center">
+  <p>
   Sign-In Providers:
     <li>Email/Password</li>
     <li>Google</li>
   </p>
   
   <h3>API Location</h3>
-  <h5>Steps</h5>
+  <h3>Steps</h3>
     <li>Make a JSON file of therapy places in Indonesia</li>
     <li>Build a REST API using Node.js</li>
     <p>Method: GET</p>
     <p>Auth Required: NO</p>
+    <li>Deploy on Compute Engine</li>
   <p>Endpoint: http://34.101.192.188:8080/<p>
