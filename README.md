@@ -43,40 +43,20 @@ Autism is a syndrome of brain development that attacks the sufferer. The person 
 ## Screenshots
 
 <p align="center">
-  <img src="splashcreen.jpeg" width="200">
+  <img src="https://github.com/rafiechautie/Autism-detector-for-children/blob/main/splashscreen.jpeg" width="200">
   <img src="login.jpeg" width="200">
-  <img src="/register,jpeg" width="200">
+  <img src="/register.jpeg" width="200">
 </p>
 
 <p align="center">
   <img src="main.png" width="210">
-  <img src="/misc/img/06.jpg" width="210">
-  <img src="/misc/img/07.jpg" width="210">
+  <img src="https://github.com/rafiechautie/Autism-detector-for-children/blob/main/consultation2.png" width="210">
+  <img src="https://github.com/rafiechautie/Autism-detector-for-children/blob/main/Halaman%20Detecion.png" width="210">
 </p>
 
 <p align="center">
-  <img src="/misc/img/08.jpg" width="210">
-  <img src="/misc/img/09.jpg" width="210">
-  <img src="/misc/img/10.jpg" width="210">
-</p>
-
-<p align="center">
-  <img src="/misc/img/11.jpg" width="210">
-  <img src="/misc/img/12.jpg" width="210">
-</p>
-
-<p align="center">
-  <img src="/misc/img/13.jpg" width="210">
-  <img src="/misc/img/14.jpg" width="210">
-</p>
-
-<p align="center">
-  <img src="/misc/img/15.jpg" width="210">
-  <img src="/misc/img/16.jpg" width="210">
-</p>
-
-<p align="center">
-  <img src="/misc/img/17.jpg" width="210">
+  <img src="https://github.com/rafiechautie/Autism-detector-for-children/blob/main/map.png" width="210">
+  <img src="https://github.com/rafiechautie/Autism-detector-for-children/blob/main/consultation.png" width="210">
 </p>
 
 
@@ -107,3 +87,5 @@ Wait for Gradle Build to Finish and finally press the `Run > Run ‘app’`. Now
 
 #### 1. download file APK in https://drive.google.com/file/d/13v1orGnO2W3ND_NGA3awuj4rSJ5-eB8A/view?usp=sharing 
 ### 2. install that file in your mobile phone
+
+## Thank You :)
