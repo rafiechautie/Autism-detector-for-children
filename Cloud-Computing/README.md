@@ -13,10 +13,15 @@ Fully use Google Cloud Platform (GCP)
   
   <h3>Firebase Authentication</h3>
   <p align="center">
-    Sign-In Method:
+  Sign-In Providers:
     <li>Email/Password</li>
     <li>Google</li>
-  <img align="center" src="firebase-auth/firebase-auth.png"</img>
-    <br>
-    Preview Users Data
-  </p> 
+  </p>
+  
+  <h3>API Location</h3>
+  <h5>Steps</h5>
+    <li>Make a JSON file of therapy places in Indonesia</li>
+    <li>Build a REST API using Node.js</li>
+    <p>Method: GET</p>
+    <p>Auth Required: NO</p>
+  <p>Endpoint: http://34.101.192.188:8080/<p>
